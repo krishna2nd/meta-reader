@@ -1,0 +1,36 @@
+{
+  "name": "meta-reader",
+  "version": "0.0.1",
+  "description": "Web page meta reader and parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krishna2nd/meta-reader.git"
+  },
+  "keywords": [
+    "meta",
+    "web",
+    "open",
+    "graph",
+    "title",
+    "description",
+    "metadata",
+    "seo",
+    "webpage"
+  ],
+  "author": "krishna2nd",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krishna2nd/meta-reader/issues"
+  },
+  "homepage": "https://github.com/krishna2nd/meta-reader#readme",
+  "dependencies": {
+    "mocha": "^3.5.0"
+  }
+}
