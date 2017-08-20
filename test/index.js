@@ -134,6 +134,16 @@ describe('Meta Reader', function() {
           assert.ok(result.description) & done(), done
       );
     }).timeout(10000);
+    it.skip('from amazon url', function(done) {
+      let reader = new Reader();
+      let result = reader.parseUrl(
+        'http://www.amazon.com/Apple-iPhone-16gb-Space-Unlocked/dp/B00NQGP42Y/');
+      result.then(
+        (result)  =>  assert.ok(result.title) &
+          assert.ok(result.description) & done(), done
+      );
+    });
   });
+  
 });
 
