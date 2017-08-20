@@ -31,7 +31,6 @@
   },
   "homepage": "https://github.com/krishna2nd/meta-reader#readme",
   "dependencies": {
-    "axios": "^0.16.2",
     "mocha": "^3.5.0",
     "parse5": "^3.0.2",
     "request": "^2.81.0",
