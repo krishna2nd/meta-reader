@@ -1,6 +1,6 @@
 {
   "name": "meta-reader",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Web page meta reader and parser",
   "main": "index.js",
   "scripts": {
